@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:text="08:00 am - 09:00 am"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+      	android:id="@+id/txtHorarioRow"
+      	android:textColor="#FF0000"
+      	android:textSize="10dp" />
+	<LinearLayout 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" >
+    	<TextView
+    	    android:text="aaasdasdasdasdasdasdada" 
+    	    android:layout_width="220dp"
+    	    android:layout_height="wrap_content"
+    	    android:id="@+id/txtCharlaRow"/>
+    	<TextView 
+    	    android:layout_width="220dp"
+    	    android:layout_height="wrap_content"
+    	    android:id="@+id/txtCharlistaRow"
+    	    android:textColor="#00FF00"
+      		android:textSize="10dp"
+    	    android:text="aaasdasdasdasdasdasdada"/>
+    </LinearLayout>
+</LinearLayout>
